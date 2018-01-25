@@ -3,7 +3,7 @@ class II:
         self.msg = msg
     
         if str(self.msg) == None:
-            print("!!!")
+            print("!!")
 
         else:
             self.speak(self.msg)
