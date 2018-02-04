@@ -28,7 +28,7 @@ class II:
             return(num1 + num2)
 
         except:
-            return "Введите число!!!"
+            return "Введите число!"
 
 
 if __name__ == "__main__":
