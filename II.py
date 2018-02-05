@@ -34,7 +34,7 @@ class II(Base):
             self.step()
 
         else:
-            print("Введите что-нобудь!")
+            print("Введите что-нибудь!")
 
     @staticmethod
     def _Speak(txt):
