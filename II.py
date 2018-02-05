@@ -1,6 +1,7 @@
-from lib.lib1 import STRS
+from lib import STRS
+from lib.classes import Base
 
-class II:
+class II(Base):
     def __init__(self, msg):
         self.msg = msg
     
@@ -20,7 +21,7 @@ class II:
             print(self.plus())
         
     def _Speak(self, txt):
-        return str(txt[1])
+        super.__init__(txt)
 
     def plus(self):
         try:
