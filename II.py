@@ -21,7 +21,7 @@ class II(Base):
             print(self.plus())
         
     def _Speak(self, txt):
-        super._Speak(txt)
+        super()._Speak(txt)
 
     def plus(self):
         try:
