@@ -11,16 +11,16 @@ class II:
             self.speak(self.msg)
 
     def speak(self, msg):
-        if self.msg == "Привет" or self.msg == "привет":
+        if self.msg == STRS[1] or self.msg == STRS[1.1]:
             print(self._Speak({
                 1: "Привет"
             }))
 
-        elif self.msg == "Сложи" or self.msg == "сложи":
+        elif self.msg == STRS[2] or self.msg == STRS[2.2]:
             print(self.plus())
         
     def _Speak(self, txt):
-        return str(txt(1))
+        return str(txt[1])
 
     def plus(self):
         try:
