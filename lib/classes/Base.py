@@ -1,3 +1,3 @@
 class Base:
-    def _Speak(self, message):
-        return str(message[1])
+    def _Speak(self, txt):
+        return str(txt[1])
