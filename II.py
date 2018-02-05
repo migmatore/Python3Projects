@@ -1,3 +1,5 @@
+from lib.lib1 import STRS
+
 class II:
     def __init__(self, msg):
         self.msg = msg
@@ -10,15 +12,15 @@ class II:
 
     def speak(self, msg):
         if self.msg == "Привет" or self.msg == "привет":
-            print(self._Speak([
-                "Привет"
-            ]))
+            print(self._Speak({
+                1: "Привет"
+            }))
 
         elif self.msg == "Сложи" or self.msg == "сложи":
             print(self.plus())
         
     def _Speak(self, txt):
-        return str(txt[0])
+        return str(txt(1))
 
     def plus(self):
         try:
