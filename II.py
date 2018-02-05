@@ -1,5 +1,5 @@
-from lib import STRS
-from lib.classes import Base
+from lib.lib1 import STRS
+from lib.classes.Base import Base
 
 class II(Base):
     def __init__(self, msg):
