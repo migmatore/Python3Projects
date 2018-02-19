@@ -3,6 +3,8 @@ from lib.classes.Base import Base
 
 
 class II(Base):
+    # isBool: bool
+
     def __init__(self, msg):
         self.msg = msg
 
@@ -38,7 +40,18 @@ class II(Base):
 
     @staticmethod
     def _Speak(txt):
+        # if str(txt) == str:
+            # self.isBool = True
         return str(txt[1])
+        # else:
+            # self.isBool = False
+
+    # def isBool(self, isBool):
+    #     if isBool:
+    #         return True
+    #
+    #     else:
+    #         return False
 
     def plus(self):
         super().plus()
